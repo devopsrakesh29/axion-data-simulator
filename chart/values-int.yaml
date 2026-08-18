@@ -3,7 +3,7 @@ environment: int
 replicaCount: 1
 
 image:
-  repository: rakeshacr01.azurecr.io/axion-data-simulator
+  repository: rakeshacr01.azurecr.io/int-axion-data-simulator
   pullPolicy: Always
   tag: "int-latest"
 
