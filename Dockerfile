@@ -8,3 +8,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY simulator.py .
 
 CMD ["python", "-u", "simulator.py"]
+
+# Re-trigger Docker CI image build to ACR
